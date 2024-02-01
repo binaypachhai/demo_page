@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid-area</title>
+
+
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        padding: 15px;
+      }
+
+      .main-bx {
+        max-width: 620px;
+        height: 300px;
+        border: 1px solid black;
+        display: grid;
+
+        grid-template-areas:
+          "header header header "
+          "content1 content1 sidebar "
+          "content2 content2 sidebar "
+          "footer footer footer ";
+      }
+
+
+      .item1 {
+        background-color: blue;
+        grid-area: header;
+
+      }
+
+      .item2 {
+        background-color: red;
+        grid-area: content1;
+
+      }
+
+      .item3 {
+        background-color: yellow;
+        grid-area: content2;
+      }
+
+      .item4 {
+        background-color: thistle;
+        grid-area: sidebar;
+      }
+
+      .item5 {
+        background-color: teal;
+        grid-area: footer;
+
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+
+    <div class="main-bx">
+
+      <div class="item item1">
+        <h3>logo</h3>
+
+      </div>
+      <div class="item item2">
+        <h3>title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt dignissimos eos veniam ducimus rerum
+          commodi!</p>
+      </div>
+      <div class="item item3">
+        <h3>Box3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, repellat. Magni officiis illo excepturi
+          dolorum!</p>
+      </div>
+      <div class="item item4">
+        <h3>SideBar</h3>
+        <nav>
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Contact</a>
+        </nav>
+      </div>
+      <div class="item item5">
+        <h3>footer</h3>
+        <p>all rights reserved</p>
+      </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+
+</html>
