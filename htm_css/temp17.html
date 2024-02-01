@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web css</title>
+
+
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {}
+
+      .bx p:hover {
+        background-color: black;
+        color: red;
+      }
+
+      button:hover {
+        cursor: pointer;
+        background-color: black;
+        color: red;
+      }
+
+      .novel p::before {
+        content: 'HighLight ';
+        color: red;
+        font-size: 20px;
+      }
+
+      .novel p::after {
+        content: 'HighLight ';
+        color: red;
+        font-size: 20px;
+      }
+
+      .novel p::selection {
+        background-color: green;
+      }
+
+      /* .novel p {
+        user-select: none;
+      } */
+      /* we cant select text using above code */
+    </style>
+
+  </head>
+
+  <body>
+    <div class="novel">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, nam!</p>
+    </div>
+    <div class="af-bf">
+      <strong>hello</strong>
+      <strong>hello</strong>
+    </div>
+    <strong>hello</strong>
+
+
+    <div class="bx">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, debitis?</p>
+    </div>
+
+
+    <button>Hover Me</button>
+
+
+
+
+  </body>
+
+</html>

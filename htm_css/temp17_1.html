@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        padding: 20px;
+      }
+
+      /* img {
+        display: block;
+      } */
+      img {
+        display: block;
+      }
+
+      image[alt='den'] {
+        height: 200px;
+
+      }
+
+      input:checked+label {
+        color: maroon;
+      }
+
+      image[alt='snow'] {
+        height: 200px;
+      }
+
+      input:focus {
+        color: red;
+      }
+
+      input[type='email']:focus {
+        color: blue;
+        border: 1px solid red;
+        outline: none;
+      }
+
+      input[type='radio'] {}
+    </style>
+  </head>
+
+  <body>
+    <form action="#">
+      <input type="email" placeholder="email add">
+      <br>
+      <br>
+      <input type="text" placeholder="yourname">
+      <br>
+      <br>
+      <p>
+
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Female</label>
+      </p>
+
+
+    </form>
+    <img
+      src="https://images.unsplash.com/photo-1557463444-06104d549bb5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c3BvcnRzJTIwZm9vdGJhbGx8ZW58MHx8MHx8fDA%3D"
+      alt="den">
+
+
+    <img
+      src="https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3BvcnRzJTIwZm9vdGJhbGx8ZW58MHx8MHx8fDA%3D"
+      alt="snow">
+
+
+  </body>
+
+</html>
