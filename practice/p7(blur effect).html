@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blur Effect</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .bx {
+        height: 100vh;
+
+        border: 1px solid black;
+        align-items: center;
+        /* justify-content: center; */
+        position: relative;
+      }
+
+      .bx1 {
+        height: 100vh;
+
+
+        background-image: url('https://images.unsplash.com/photo-1472313420546-a46e561861d8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover;
+        background-position: center;
+        filter: blur(1.5px);
+
+      }
+
+
+
+      h1 {
+        position: absolute;
+        top: 200px;
+        left: 500px;
+      }
+
+      p {
+        position: absolute;
+        top: 250px;
+        left: 370px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="bx">
+      <div class="bx1">
+
+      </div>
+      <h1>Hello World</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eos.</p>
+
+    </div>
+
+
+
+  </body>
+
+</html>

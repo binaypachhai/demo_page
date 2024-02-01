@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX</title>
+
+
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        padding: 10px;
+      }
+
+      img {
+        width: 100%;
+        height: 70%;
+      }
+
+
+      .bxa {
+        height: 40vh;
+        max-width: 100vb;
+        border: 1px solid black;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 10px;
+
+      }
+
+      .bx1 {
+        background-color: aquamarine;
+        width: 100px;
+        height: 180px;
+        border: 1px solid black;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+
+      .bx2 {
+        background-color: rgb(255, 127, 249);
+        width: 100px;
+        height: 180px;
+        border: 1px solid black;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+
+      .bx3 {
+        background-color: rgb(255, 127, 133);
+        width: 100px;
+        height: 180px;
+        border: 1px solid black;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+
+
+
+      .bxb {
+        height: 40vh;
+        max-width: 100vb;
+        border: 1px solid black;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 10px;
+
+      }
+
+      .bx4 {
+        background-color: rgb(174, 227, 0);
+        width: 100px;
+        height: 180px;
+        border: 1px solid black;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+
+      .bx5 {
+        background-color: rgb(15, 73, 149);
+        width: 100px;
+        height: 180px;
+        border: 1px solid black;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+
+      .bx6 {
+        background-color: maroon;
+        width: 100px;
+        height: 180px;
+        border: 1px solid black;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="bxa">
+      <div class="item bx1">
+        <img
+          src="https://images.unsplash.com/photo-1705402014000-5edea6a8cc37?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="place">
+
+
+        <h3>Place Discription</h3>
+      </div>
+      <div class="item bx2">
+        <img
+          src="https://images.unsplash.com/photo-1705402014000-5edea6a8cc37?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="place">
+        <h3>Box2</h3>
+      </div>
+      <div class="item bx3">
+        <img
+          src="https://images.unsplash.com/photo-1705402014000-5edea6a8cc37?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="place">
+        <h3>Box3</h3>
+      </div>
+    </div>
+
+    <div class="bxb">
+
+
+      <div class="item bx4">
+        <img
+          src="https://images.unsplash.com/photo-1705402014000-5edea6a8cc37?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="place">
+        <h3>Box4</h3>
+      </div>
+      <div class="item bx5">
+        <img
+          src="https://images.unsplash.com/photo-1705402014000-5edea6a8cc37?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="place">
+        <h3>Box5</h3>
+      </div>
+      <div class="item bx6">
+        <img
+          src="https://images.unsplash.com/photo-1705402014000-5edea6a8cc37?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="place">
+        <h3>Box6</h3>
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+
+</html>
